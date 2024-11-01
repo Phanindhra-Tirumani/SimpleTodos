@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.delete-button {
+  color: #ff0b37;
+  border-radius: 10px;
+  border-color: #ff0b37;
+  border-width: 2px;
+  width: 100px;
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  align-items: flex-end;
+}
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.container {
+  display: flex;
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
